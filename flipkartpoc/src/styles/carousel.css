@@ -24,3 +24,12 @@
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
 }
+
+.transformscalling:hover{
+    transform: scale(1.1);
+    transition: 500ms;
+}
+
+.transformscalling{
+    cursor: pointer;
+}

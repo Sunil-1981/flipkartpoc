@@ -45,62 +45,62 @@ const NextBtn = (props) => {
                 
                 >
                 <div style={{textAlign:"center"}}>
-                    <img src={image6} alt="" style={{width:'100%', height:'170px', objectFit:'contain'}} />
+                    <img src={image6} className="transformscalling" alt="" style={{width:'100%', height:'170px', objectFit:'contain'}} />
                     <div style={{fontSize:'16px', marginTop:'15px' , fontWeight:500 }}>Beauty Products</div>
                     <div style={{fontSize:'14px',  paddingBottom:'5px',  marginTop:'5px' , color:'green'}}>Upto 40% off</div>
                     <div style={{fontSize:'14px', paddingBottom:'5px',  marginTop:'5px' , color:'gray'}}>Ayurveda and more</div>
                 </div>
                
                 <div style={{textAlign:"center"}}>
-                    <img src={image7} alt="" style={{width:'100%', height:'170px', objectFit:'contain'}} />
+                    <img src={image7} className="transformscalling" alt="" style={{width:'100%', height:'170px', objectFit:'contain'}} />
                     <div style={{fontSize:'16px', marginTop:'15px' , fontWeight:500  }}>Electrical Products</div>
                     <div style={{fontSize:'14px',  paddingBottom:'5px',  marginTop:'5px' , color:'green'}}>Upto 30% off</div>
                     <div style={{fontSize:'14px', paddingBottom:'5px',  marginTop:'5px' , color:'gray'}}>Charger wires and more</div>
                 </div>
                 <div style={{textAlign:"center"}}>
-                    <img src={image8} alt="" style={{width:'100%', height:'170px', objectFit:'contain'}} />
+                    <img src={image8} className="transformscalling" alt="" style={{width:'100%', height:'170px', objectFit:'contain'}} />
                     <div style={{fontSize:'16px', marginTop:'15px' , fontWeight:500 }}>Electronnic Products</div>
                     <div style={{fontSize:'14px',  paddingBottom:'5px',  marginTop:'5px' , color:'green'}}>Upto 20% off</div>
                     <div style={{fontSize:'14px', paddingBottom:'5px',  marginTop:'5px' , color:'gray'}}>Calculators and more</div>
                 </div>
                 <div style={{textAlign:"center"}}>
-                    <img src={image9} alt="" style={{width:'100%', height:'170px', objectFit:'contain'}} />
+                    <img src={image9} className="transformscalling" alt="" style={{width:'100%', height:'170px', objectFit:'contain'}} />
                     <div style={{fontSize:'16px', marginTop:'15px' , fontWeight:500 }}>Pharma Products</div>
                     <div style={{fontSize:'14px',  paddingBottom:'5px',  marginTop:'5px' , color:'green'}}>Upto 10% off</div>
                     <div style={{fontSize:'14px', paddingBottom:'5px',  marginTop:'5px' , color:'gray'}}>Medical Products and more</div>
                 </div>
                 <div style={{textAlign:"center"}}>
-                    <img src={image10} alt="" style={{width:'100%', height:'170px', objectFit:'contain'}} />
+                    <img src={image10} className="transformscalling" alt="" style={{width:'100%', height:'170px', objectFit:'contain'}} />
                     <div style={{fontSize:'16px', marginTop:'15px' , fontWeight:500 }}>Covid Products</div>
                     <div style={{fontSize:'14px',  paddingBottom:'5px',  marginTop:'5px' , color:'green'}}>Upto 40% off</div>
                     <div style={{fontSize:'14px', paddingBottom:'5px',  marginTop:'5px' , color:'gray'}}>Oximeters and more</div>
                 </div>
                 <div style={{textAlign:"center"}}>
-                    <img src={image11} alt="" style={{width:'100%', height:'170px', objectFit:'contain'}} />
+                    <img src={image11} className="transformscalling" alt="" style={{width:'100%', height:'170px', objectFit:'contain'}} />
                     <div style={{fontSize:'16px', marginTop:'15px' , fontWeight:500 }}>Daily Products</div>
                     <div style={{fontSize:'14px',  paddingBottom:'5px',  marginTop:'5px' , color:'green'}}>Upto 40% off</div>
                     <div style={{fontSize:'14px', paddingBottom:'5px',  marginTop:'5px' , color:'gray'}}>Sprays and more</div>
                 </div>
                 <div style={{textAlign:"center"}}>
-                    <img src={image12} alt="" style={{width:'100%', height:'170px', objectFit:'contain'}} />
+                    <img src={image12} className="transformscalling" alt="" style={{width:'100%', height:'170px', objectFit:'contain'}} />
                     <div style={{fontSize:'16px', marginTop:'15px' , fontWeight:500 }}>Clothes Products</div>
                     <div style={{fontSize:'14px',  paddingBottom:'5px',  marginTop:'5px' , color:'green'}}>Upto 50% off</div>
                     <div style={{fontSize:'14px', paddingBottom:'5px',  marginTop:'5px' , color:'gray'}}>Sarees and more</div>
                 </div>
                 <div style={{textAlign:"center"}}>
-                    <img src={image13} alt="" style={{width:'100%', height:'170px', objectFit:'contain'}} />
+                    <img src={image13} className="transformscalling"  alt="" style={{width:'100%', height:'170px', objectFit:'contain'}} />
                     <div style={{fontSize:'16px', marginTop:'15px' , fontWeight:500 }}>Body weighs Products</div>
                     <div style={{fontSize:'14px',  paddingBottom:'5px',  marginTop:'5px' , color:'green'}}>Upto 30% off</div>
                     <div style={{fontSize:'14px', paddingBottom:'5px',  marginTop:'5px' , color:'gray'}}>Dumbles and more</div>
                 </div>
                 <div style={{textAlign:"center"}}>
-                    <img src={image14} alt="" style={{width:'100%', height:'170px', objectFit:'contain'}} />
+                    <img src={image14} className="transformscalling" alt="" style={{width:'100%', height:'170px', objectFit:'contain'}} />
                     <div style={{fontSize:'16px', marginTop:'15px' , fontWeight:500 }}>Furniture Products</div>
                     <div style={{fontSize:'14px',  paddingBottom:'5px',  marginTop:'5px' , color:'green'}}>Upto 30% off</div>
                     <div style={{fontSize:'14px', paddingBottom:'5px',  marginTop:'5px' , color:'gray'}}>Tables and more</div>
                 </div>
                 <div style={{textAlign:"center"}}>
-                    <img src={image15} alt="" style={{width:'100%', height:'170px', objectFit:'contain'}} />
+                    <img src={image15} className="transformscalling" alt="" style={{width:'100%', height:'170px',  objectFit:'contain'}} />
                     <div style={{fontSize:'16px', marginTop:'15px' , fontWeight:500 }}>Toys Products</div>
                     <div style={{fontSize:'14px',  paddingBottom:'5px',  marginTop:'5px' , color:'green'}}>Upto 40% off</div>
                     <div style={{fontSize:'14px', paddingBottom:'5px',  marginTop:'5px' , color:'gray'}}>Child Toys and more</div>
