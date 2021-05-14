@@ -91,6 +91,7 @@
 
 .moretooltipitem > .MuiSvgIcon-root {
     margin-right: 10px;
+    color: #2874f0;
 }
 
 .moretooltip > hr{
@@ -115,6 +116,7 @@
 
 .logintooltipitem > .MuiSvgIcon-root {
     margin-right: 10px;
+    color: #2874f0;
 }
 
 .logintooltipitem{
