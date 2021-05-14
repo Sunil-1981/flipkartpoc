@@ -81,3 +81,54 @@
     padding-left: 1px;
     
 }
+
+.moretooltipitem
+{
+    display: flex;
+    align-items: center;
+    padding: 0px 7px;
+}
+
+.moretooltipitem > .MuiSvgIcon-root {
+    margin-right: 10px;
+}
+
+.moretooltip > hr{
+    margin-left: -10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 108.5%;
+    height: 0.5px;
+    background-color:rgb(233, 233, 233);
+    border: none;
+}
+
+.logintooltip > hr{
+    margin-left: -10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 108.5%;
+    height: 0.5px;
+    background-color:rgb(233, 233, 233);
+    border: none;
+}
+
+.logintooltipitem > .MuiSvgIcon-root {
+    margin-right: 10px;
+}
+
+.logintooltipitem{
+    display: flex;
+    align-items: center;
+}
+
+.signup{
+    font-weight:500;
+    font-size:15px;
+    color:#2874f0
+}
+
+.signup:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

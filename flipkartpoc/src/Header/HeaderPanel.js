@@ -3,6 +3,11 @@ import SearchIcon from '@material-ui/icons/Search';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import '../styles/header.css'
+import Tippy from '@tippyjs/react'
+import 'tippy.js/dist/tippy.css'
+import MoreToolTip from './MoreToolTip'
+import LoginToolTip from './LoginToolTip'
+import 'tippy.js/themes/light.css'
 
 const HeaderPanel = () => {
     return (
@@ -15,10 +20,16 @@ const HeaderPanel = () => {
                 <SearchIcon />
            </div>
            <div className="header_login">
-                <button>Login</button>
+                <Tippy theme="light" interactive={true}  content={<LoginToolTip></LoginToolTip>}>
+                    <button>Login</button>
+                </Tippy>
+                
            </div>
            <div className="header_more">
-                <span>More</span>
+                <Tippy theme="light" interactive={true} content={<MoreToolTip></MoreToolTip>}>
+                    <span>More</span>
+                </Tippy>
+                
                 <ExpandMoreIcon />
            </div>
            <div className="header_cart">
