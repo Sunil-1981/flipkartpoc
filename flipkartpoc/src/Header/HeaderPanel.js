@@ -13,7 +13,9 @@ const HeaderPanel = () => {
     return (
         <div className="header">
            <div className="header_logo">
-                <img width="100" src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fk-plus_3b0baa.png" alt="logo" />
+                <a href="/" >
+                    <img width="100" src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fk-plus_3b0baa.png" alt="logo" />
+                </a>
            </div>
            <div className="header_search">
                 <input  placeholder="Search for products, brands and more" type="text" />

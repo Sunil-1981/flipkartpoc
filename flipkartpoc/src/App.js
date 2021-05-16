@@ -1,15 +1,26 @@
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 import './App.css';
-import HeaderPanel from './Header/HeaderPanel'
-import SlidingCorousel  from './Slider/SlidingCorousel'
-import MultiSlidingCorousel from './Slider/MultiSlidingCorousel'
+
+import ViewAllProducts from './Products/ViewAllProducts'
+import Home from './Home'
 
 function App() {
   return (
     <div className="App">
-      <HeaderPanel />
-      <SlidingCorousel />
-      <MultiSlidingCorousel />
+      <Router>
+      
+        <Switch>
+          <Route path="/viewall" component={ViewAllProducts}></Route>
+          <Route path="/" component={Home}></Route>
+        </Switch>
+      
+      </Router>
     </div>
   );
 }
